@@ -1,4 +1,4 @@
-/**
+f/**
  * File Name:  FileChooserWindow.java
  * Purpose:    The FileChooserWindow opens a file explorer that lets the user select
  *             a file in order to obtain its content.
@@ -53,7 +53,7 @@ public class FileChooserWindow {
             inputFile.close();
         }
         catch(IOException ex) {
-            JOptionPane.showMessageDialog(null, "Error handling the dile: + ex");
+            JOptionPane.showMessageDialog(null, "Error handling the file: + ex");
         }
     }
 }
